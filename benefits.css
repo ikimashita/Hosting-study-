@@ -1,0 +1,48 @@
+.benefits{
+    margin-top: 70px;
+    margin-bottom: calc(117px - 66px);
+}
+.decor-line{
+    margin-bottom: 12px;
+}
+/* h2 */
+.benefits h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #556b72;
+    margin-bottom: 37px;
+}
+.benefits strong{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+/* card */
+.benefit-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.benefit-ico{
+    margin-right: 27px;
+    width: 69px;
+    display: flex;
+    justify-content: center;
+}
+.benefit-card h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #556b72;
+    margin-bottom: 18px;
+}
+.benefit-card{
+    display: flex;
+    margin-bottom: 66px;
+}
+.benefit-card-text p{
+    font-size: 13.5px;
+    line-height: 24px;
+    letter-spacing: -1px;
+}

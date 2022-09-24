@@ -1,0 +1,36 @@
+.newsletter-back{
+    background-color: #e7f4f8;
+    padding-top: 93px;
+    padding-bottom: 80px;
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.newsletter .domain-name{
+    flex-grow: 1;
+    border: none;
+}
+.newsletter .orange-button{
+    width: 193px;
+}
+/* h2 */
+.newsletter h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #4c515b;
+    margin-right: 33px;
+}
+.newsletter strong{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+/* abcolute svg */
+.newsletter-svg{
+    position: absolute;
+    top: -30px;
+}
+

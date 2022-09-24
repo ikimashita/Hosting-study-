@@ -1,0 +1,30 @@
+.main_nav{
+    background-color: #ff8261;
+    
+}
+.nav_item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    height: 56px;
+    background-color: #ff8261;
+    color: white;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.nav_item a:hover{
+    background-color: #52cbf8;
+    transition: 0.3s;
+}
+.nav_item a:active{
+    background-color: #52ccf89a;
+    transition: 0.3s;
+}
+.nav_items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav_items li{
+    flex-grow: 1;
+}

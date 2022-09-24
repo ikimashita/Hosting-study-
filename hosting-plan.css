@@ -1,0 +1,85 @@
+.hosting-plan{
+    margin-bottom: 111px;
+}
+/* h2 */
+.hosting-plan h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #4c515b;
+    margin-bottom: 37px;
+}
+.hosting-plan h2 strong{
+    font-size: 30px;
+    font-weight: 900;
+}
+/* decor-line */
+.hosting-plan .decor-line{
+    margin-top: 85px;
+}
+/* card */
+.plan-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 27px 23px 22px 23px;
+    border: 1px solid #e1eff4;
+    width: 263px;
+}
+/* cost */
+.plan-cost{
+    color: #556b72;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.plan-cost strong{
+    font-size: 50px;
+}
+.plan-cost em{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* plan name */
+.plan-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #52cbf8;
+    height: 38px;
+    width: 182px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-bottom: calc(54px - 14px);
+}
+/* list */
+.plan-descript{
+    width: 100%;
+}
+.plan-descript-item{
+    display: flex;
+    color: #8d9198;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 100%;
+    border-bottom: 1px solid #f0f4f7;
+}
+.plan-descript-item:last-child{
+    border: none;
+}
+/* orange-button */
+.plan-card .orange-button{
+    width: 115px;
+    height: 42px;
+    margin-top: calc(33px - 14px);
+}

@@ -1,0 +1,119 @@
+.hot-back{
+    background-color: #fffbde;
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+.hot{
+    display: flex;
+}
+.hot-offer{
+    flex-grow: 1;
+}
+.features{
+    flex-grow: 1;
+}
+/* h2 */
+.hot-offer h2, .features h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #4c515b;
+    margin-bottom: 37px;
+}
+.features h2{
+    margin-bottom: 10px;
+}
+.hot-offer strong, .features strong{
+    font-size: 30px;
+    font-weight: 900;
+}
+.hot .orange-button{
+    width: 165px;
+}
+/* hot offer card */
+.hot-offer-back{
+    background-color: white;
+    width: 385px;
+    height: 115px;
+    padding: 10px;
+}
+.hot-offer-card{
+    border: 2px solid #fffbde;
+    height: 100%;
+    padding-left: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* p1 */
+.hot-offer-card p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    color: #97947f;
+}
+/* p2 */
+.hot-offer-card .orange-text{
+    color: #ff8261;
+    font-size: 48px;
+}
+.hot-offer-card .blue-text{
+    color: #52cbf8;
+    margin-left: 10px;
+    margin-right: 13px;
+    font-size: 48px;
+}
+.hot-p2{
+    display: flex;
+    align-items: center;
+}
+.hot-p2 strong{
+    font-size: 17px;
+    color: #4c515b;
+    font-weight: 900;
+}
+.brown-text{
+    font-style: normal;    
+    color: #97947f;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+.brown-text strong{
+    font-size: 17px;
+    color: #4c515b;
+    font-weight: 900;
+}
+/* feautures */
+.features-list{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.features-item{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.features-item p{
+    font-size: 13.5px;
+    margin-left: 15px;
+}
+.list-point-arrow{
+    border: solid rgb(0, 0, 0);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-right: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.list-point{
+    display: flex;
+    align-items: center;
+}
+/* button */
+.hot .orange-button{
+    align-self: flex-end;
+    margin-left: 30px;
+}

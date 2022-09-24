@@ -1,0 +1,43 @@
+.domain-search-back{
+    background-color: #e7f4f8;
+    height: 200px;
+}
+.domain-search{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.domain-search h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #556b72;
+    font-weight: 500;
+}
+.domain-search strong{
+    font-size: 30px;  
+    font-weight: 900;  
+}
+.domain-name, .domain-year, .domain-ending{
+    height: 55px;
+    background-color: white;
+    outline: none;
+    border: 1px solid #dfeef3;
+    padding-left: 23px;
+    font-size: 13.5px;
+}
+.domain-name{
+    width: 430px;
+}
+.domain-year, .domain-ending{
+    width: 165px;
+}
+.domain-search .orange-button{
+    width: 195px;
+}
+/* abcolute-svg */
+.search-domain-svg{
+    position: absolute;
+    top: 38px;
+}

@@ -1,0 +1,111 @@
+.main-footer-back{
+    padding-top: 104px;
+    padding-bottom: 112px;
+    background-color: #4c515b;
+}
+.main-footer{
+    display: flex;   
+    justify-content: space-between;
+}
+.main-footer h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 26px;
+}
+/* logo */
+.footer-logo{
+    height: 100%;
+    align-self: center;
+}
+.footer-logo svg{
+    margin-bottom: 9px;
+}
+.footer-logo p{
+    margin-left: 59px;
+    font-size: 14px;
+    color: #909aad;
+}
+/* quick links */
+
+.quick-links-list{
+    display: flex;
+}
+.links-list1{
+    padding-right: 65px;
+}
+.quick-links-item{
+    padding-bottom: 18px;
+    font-size: 14px;
+}
+.quick-links-item:last-child{
+    padding-bottom: 0px;
+}
+.quick-links-item a{
+    color: #909aad;
+    transition: 0.3s;
+}
+.quick-links-item a:hover{
+    color: white;
+    transition: 0.3s;
+}
+.quick-links-item a:active{
+    color: black;
+    transition: 0.3s;
+}
+/* contact us */
+.contact-list{
+    width: 100%;
+}
+.contact-item{
+    padding-bottom: 18px;
+    font-size: 14px;
+}
+.contact-item p{
+    color: white;
+}
+.contact-item a{
+    padding-left: 5px;
+    color: #909aad;
+}
+.contact-item a{
+    color: #909aad;
+    transition: 0.3s;
+}
+.contact-item a:hover{
+    color: white;
+    transition: 0.3s;
+}
+.contact-item a:active{
+    color: black;
+    transition: 0.3s;
+}
+/* social-links */
+.soc-links-list{
+    display: flex;
+    align-items: center;
+}
+.soc-link-item{
+    margin-right: 31px;
+}
+.soc-link-item:last-child{
+    margin-right: 0px;
+}
+
+.soc-link-item svg{
+    fill: aqua;
+}
+
+/* .soc-link-item svg{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.soc-link-item svg:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.soc-link-item svg:active{
+    opacity: 1;
+    transition: 0.3s;
+} */

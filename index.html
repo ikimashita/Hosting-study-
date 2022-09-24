@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="norm.css">
+    <link rel="stylesheet" href="main-nav.css">
+    <link rel="stylesheet" href="main-header.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="domain-search.css">
+    <link rel="stylesheet" href="orange-button.css">
+    <link rel="stylesheet" href="benefits.css">
+    <link rel="stylesheet" href="decor-line.css">
+    <link rel="stylesheet" href="hot&features.css">
+    <link rel="stylesheet" href="hosting-plan.css">
+    <link rel="stylesheet" href="newsletter.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Hosting</title>
+</head>
+<body>
+    <header>
+        <div class="main-header container supp-container">
+            <div class="main-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="149" height="31" viewBox="0 0 149 31">
+                    <image id="Hosting" width="149" height="31" xlink:href="data:img/png;base64,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"/>
+                </svg>                  
+            </div>
+            <div class="user-info">
+                <ul class="user-info-list">
+                    <li class="support-email">
+                        <p>Support:</p>
+                        <a href="#">info@webhosting.com</a>
+                    </li>
+                    <div class="user-info-separator"></div>
+                    <li class="user-reg"><a href="#">Register</a></li>
+                    <div class="user-info-separator"></div>
+                    <li class="user-log"><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="main_nav container">
+            <ul class="nav_items">
+                <li class="nav_item"><a href="#">home</a></li>
+                <li class="nav_item"><a href="#">about us</a></li>
+                <li class="nav_item"><a href="#">service</a></li>
+                <li class="nav_item"><a href="#">hosting plan</a></li>
+                <li class="nav_item"><a href="#">domain</a></li>
+                <li class="nav_item"><a href="#">faq</a></li>
+                <li class="nav_item"><a href="#">testimonails</a></li>
+                <li class="nav_item"><a href="#">blog</a></li>
+                <li class="nav_item"><a href="#">support</a></li>
+                <li class="nav_item"><a href="#">contact us</a></li>
+            </ul>
+        </nav>
+        <section class="slider-back">
+            <div class="slider container supp-container">
+                <button class="slide-arrow">
+                    <i class="arrow right"></i>
+                </button>
+                <div class="slider-item">
+                    <div class="slide-img">
+                    </div>
+                    <h2>awesome hosting</h2>
+                    <p>with unlimited features</p>
+                    <div class="slide-dots">
+                        <ul class="sdots">
+                            <li class="sdot-item sdot-active"></li>
+                            <li class="sdot-item"></li>
+                            <li class="sdot-item"></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="slide-arrow">
+                    <i class="arrow left"></i>
+                </button>
+            </div>
+        </section>
+        <section class="domain-search-back">
+            <div class="domain-search container supp-container">
+                <div class="search-domain-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="26" viewBox="0 0 25 26">
+                        <image id="_" data-name="" width="25" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAABe0lEQVRIia1W0W2DMBB9RV2AjJAVYAQYIRmBfHSAdIR0BDpCOwKswAhlBQ/Qn4joWXLPZ/tQ8yTLyD772Xfvzrz8vvUooAZwZO8ArOzNeM0YDmyNMrcA+AbwaSGslLEOwA+AMUEAjt9od9pLcgUw0T0WbC78IqGJZMgYe/csifkrW5akoXsk3gEcALQAzuwPHJexuNHVSRJ5A8cNP5TNHMdbKi2EdtAHSaOc4JxxjcdKuxBHTQiVMjizWbBQxiFUEilTuagEaR/JXiMpuUlCxsVXhz8ku0qEAqcQRST/RS2S18mDV8opVK1nIN0dFdBKUdKwk0TaRzGtWC7kyaxEJ0WykTq9u+TEaCDqWBxDzKmbIFGLRlbkLlBLHWw+KcTSKw+EL2OXWOixGp+AXsY5lPBMg1TeWN+YSSpU5snM6mqtXZvdpUSkJePKG7UUhMwjL5SezX8niSx/K2DAay2bA6Ri2lvLiuVXyMdUYnxG7SoRuWeThETbzRcAlzsUCWBKnQT8LgAAAABJRU5ErkJggg=="/>
+                    </svg>                      
+                </div>
+                <h2>search your<br><strong>domain</strong></h2>
+                <input type="text" class="domain-name" placeholder="Enter your domain name">
+                <select name="" id="" class="domain-year">
+                    <option value="Year (0-1 year)">Year (0-1 year)</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                </select>
+                <select name="" id="" class="domain-ending" placeholder=".com">
+                    <option value=".com">.com</option>
+                    <option value=".ua">.ua</option>
+                    <option value=".ru">.ru</option>
+                    <option value=".eu">.eu</option>
+                    <option value=".org">.org</option>
+                </select>
+                <button class="orange-button">search</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="benefits container supp-container">
+            <div class="decor-line"></div>
+            <h2>our<br><strong>benefits</strong></h2>
+            <div class="benefit-cards">
+                <div class="benefit-card">
+                    <div class="benefit-ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="56" viewBox="0 0 69 56">
+                            <image id="_" data-name="" width="69" height="56" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAA4CAYAAACrMTU2AAAEMElEQVRogdVb7ZHaMBDdMNeAU4JSglOCKcGUwP1IAVAClIBLgBKghHMJ5xZcQH4k45kV41y0H/q0eTOeS7hDWj1JT7ur9bffv7awAlQAUAPAgM+ieCvc+TTwBn8a/ElhIqefPY9SRpYgZSKhxafy+J7Bp8X/jwBwwycrQZuMbe8B4BMA7vhvH0JcqLCdO7a7z2N2HlIaNPqCM50DBtv/xP6SIiUp00xecSZzkfEVBvu7JliJT6TSlBoN8yWjR60A1Il6NjifFdDid3fYZhRSkLLHpaxBPxNKjfH1TKi5kwpwQj4A4B0AupgBxfopWkImI8+RPojB/jSiHUVMjKZoCJkM+45Gxjpl0/ePAPBDMeBLzOkUSopEyDSALZIxMn8XghHb3QpEBxMTQsq0t0/M7ye9+FnAA7X9cNp0UmjRf/AlpcIZoPZ0hzOYenVQGJEYajtVIce1LykHhvkOl/US4ITVoN1q+Jw+NR55LjxwhSyJCh05atKkrfaEz0qhdGREp2lpjMLW5XQwiJSG8TB3BTVEwshsYW4M/0BLCrUnXWG8Fbc/Cz1XZhx3xqZn5K1x8w3D8NHx2TVH5FoANvIeNSulJT7vHM5T9aKEzNHGkHJzfLYWbYmBuFIq4ogbGI/1vNx4ojFNaidpCrUVXKvE4oiNr2EbGSLH47o1GFASeokUKmkkOUHnlayYljiNOs4+aftQ3mGx64ZIUJPHBonSSqECKUlQDSPQKXET0gfU79gAUSLFxai0Slohkk6JkyLL9nDoG6t3mtPHF6dChFioYxotctz7lLresKhST0IOUqKvGDwxpHYaJVJcQqXJpJfMvElpC5e9bBJdEtrBsR2knGePGXfv3GgAesUEUB45CYkUqkMjNDyuxJeh9I0lUto+lD68SiRM2cnqniWlJRIw1HF3WTCJZJ8PhT9EbWFx+zRCtmqtqGcVUVTSnPKq2a29yVn8UggNsVqoyqlHrKa8ClyDpCZbPAA2sWULK4Art8Nl7sXxviFzO2EbUckaWPjofRCDpG4fOo1jaf2Um5BNM3gFQBm2phTkgVklKju1mjIwy467Xy6NWrijUtXI+AgtxbJUiVAKnB0jcUflhA8pA9Nwjc7fUsRIl+tepWW+R/JZyHsuQYxESO+reSF+CnehXgsGpobUX1BFRAgpg1CLYg31KpQJwEExAVJdnBOhHm0vVC1VGEzeM0TUDbYr5YLfQ7OAMW6+ppyrmZWJx1552EheQ3RUHW2Kl6Aaj2I7ewdtK665pW1mFdeNMiFuq5mi8sSp3gyr0UcIEdivKUXqUl/Tzi7Fm2WpXljosdDuEHAPk+KkOqYMNVKnDs6YtC4VJD6wv6SxV458ij2yt0KQGYPbrI/kL2LmfIfQCqqZvUMYs1X6WTSf9Y3U0q/g2qJCWxtHiaoV34lUe2KVuWADgL9UjUBrubC67gAAAABJRU5ErkJggg=="/>
+                        </svg>
+                    </div>
+                    <div class="benefit-card-text">
+                        <h3>99.9% uptime</h3>
+                        <p>Lorem Ipsum is simply dummy text of the <br> 
+                            printing and typesetting industry. Lorem <br>
+                            Ipsum has been.</p>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="48" viewBox="0 0 60 48">
+                            <image id="_" data-name="" width="60" height="48" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAwCAYAAABNPhkJAAAD2ElEQVRogdVa65GbMBDeMGlAVwIugZTAleCUAD9SAC7BLsGUcJRwlHCUEEoIBeRPRpmVZ73elQQIP74Zz9lnLOlj37t8+/vrHVbCAECBL/dewwAAE/517++K7ws3s6T2AFAGCHKU7LMl3QNAh+83xxwJW+lV+Mo3ONgIAC2+NpN8FnldAwC/AeC4EVnAdY+4T7PRHkEJWxU8R5IM2Sa39RCsxGtU+WTw2XCDd9xHsCN2OM44VE7sf6/cAHvNJwCcAOCQirAkYYNEK+U3Ix6iS2RrBkk3Hk2yN/Rniv0kG/5UyDoV2yV2LBOut8P1JU0p8VwxpuAFJ3xWwoyV6A882JZocZ+TsEcRMLHZhBtFsjXa0L2ShAn3q4XvqrUe3BHOlYXqO0hVQ4t2y+Gz9SAc4Uawj8MDyTp0gqTNGilbL20X+MP+b73i6iQ7IT7Qk1O8MTMrSS6gIhMWAsV+HgkpDvNzW7JfIceWCV55bhJxD4xCxsXP7STbIHExhGWCA0iayiVEiDAQ0gXG7ZtrMqVke0bwc0mEJ/b9TbISWy29KgySviLME4rV6dtG4OeKTYQKGsaySFV5BmhOikJLSC51vERYClPPAH4ufm4TyMAaR5h7v9xTGj4KUlupY59DmmnXMJkSd49PZMtGSCZGQcI82kjYOy/NyzGD6dwz4CzcfKl8jDHFwhFuBdV2/axH4iwQ6YWiJraTmtM4XAuuvkrVaZgJg+kh9yWTkldHV0+U8KgUDSW2Tu/lvfe4n+SEasF2Z9XHPNOS6k8gNv25YV/a9a0+FI2qBc88uzaWUsvW0yEsSUM+hZq7acYXkpU87YTnkZoRc81t0PrSHaq41tSr0FMaYmejEi4oCtSQHFU3FDsHRY3Bczbver5G/IAdxKOgNi3pIvo27SPjI8eEN1QKP4Bk5yZH/wcHMdNDSbVzXoUomEvWTTN8XdIlZMHdvNBsyaDNbh2WBiTqa/AbraiPwISN/ikkYSnLSYGBtG1iWkr7lWe55BihYVpM7G2JCtLJIJWEczrBriJDjkSX+AF6vks40whXEWONHu2CpqQD+34pCjJ8X4OW5xUS4VAOLRFNATdF3K+UqMMNWY2wlLkMJGlP2cIt2Jw4FQ5aSJMIuwt7tLmlw27+m4J8nyeSIkfwqYEUjy1JSOFslmAXEs5WbdoRZ1Pvdx7IBc1i6750jyr2plQ7qREsFbdS6RBKVkhoT/D15G+sY3M1gIhHEV6K2MeoxJAELzhq6dExhR7BqLRc4lVnSyfy1I+WqlrSNybwysO0iTz146QuDRWu8Go2HAtXxFzfAAD4Byvc/GhN/IvkAAAAAElFTkSuQmCC"/>
+                        </svg>
+                    </div>
+                    <div class="benefit-card-text">
+                        <h3>24/7/365 support</h3>
+                        <p>Lorem Ipsum is simply dummy text of the <br> 
+                            printing and typesetting industry. Lorem <br>
+                            Ipsum has been.</p>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="43" viewBox="0 0 65 43">
+                            <image id="_" data-name="" width="65" height="43" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAArCAYAAAAnmOV5AAABf0lEQVRoge2a0W2DMBCG/1ZdgBWyAh0hHYGOQB46QBihGaGskBHSEcoKWYEB+lKdzkgoMsrZNWBy90lRBErA/nwHlu6efj/eEMAOwNF958o3gBZALx3fS8BEagBfGU9+YO8Wila3k/zhWXjhaiMCBgoAF2nESiV8/ntYy1O4iLiLJB12HqNnaagtDEVsObrlPqWEW94zFAC3MJfRcdJ0eGjUS4BJYNRLgElg1EuASWDUS4BJYNRLgElg1EuASWDUS4BJYNRLgElg1EuASWDUS4BJYNRLgElgYiWUgt+sQdS4JMUXX6Xpx1V/c6LwSBBVySQSelfqrm/Oi0pcK9NKbi9NhwbAdQOTHnNOLYGi4TXDFJjiFFIvDWnS6F3jQ+k+RbIhp+PqFkrcpYJACQNdpmX5aEhCnemqLkVHEqqNPOnnoolJhxR0E3nr64qZnbUkTLX7VJ79yOyQhDXe/zk1gvW0T2ge7WkfAG2mWpIwbIQOMe/YDUKRT+lIe54DAPwBmjEx+zpzfyEAAAAASUVORK5CYII="/>
+                        </svg>
+                    </div>
+                    <div class="benefit-card-text">
+                        <h3>protect your pc</h3>
+                        <p>Lorem Ipsum is simply dummy text of the <br> 
+                            printing and typesetting industry. Lorem <br>
+                            Ipsum has been.</p>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+                            <image id="_" data-name="" width="58" height="58" xlink:href="data:img/png;base64,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"/>
+                        </svg>                          
+                    </div>
+                    <div class="benefit-card-text">
+                        <h3>dns control</h3>
+                        <p>Lorem Ipsum is simply dummy text of the <br> 
+                            printing and typesetting industry. Lorem <br>
+                            Ipsum has been.</p>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="44" viewBox="0 0 55 44">
+                            <image id="_" data-name="" width="55" height="44" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAsCAYAAADByiAeAAACXUlEQVRoge1Z7W3CQAw1URZgBRghjBBGSEegPzpAMgIZgYzQjAAjkBHaFTJAf1BZ8kmpY1++LoSDPgkBAe78sN/5I6ufjz00sAaACPxFBQC1sT6kZyR1BICDx8QMCgDIkGRIxM6ee6yJA3HZBY03zwTkk4ZCKP6JW4/Az4sEyW2Y/TuPPXhrvI6CBQ2ZHRI57smnIhcvYIcLJHyNlyOXeJga4r7kgKoVnyDaq5GLPSJ40iLNlgpSejwyTrZ6uCvPHWmBR8O6i5hGjpdeuMD1gfIf2nEWiH3zL0rk9gLBiAgunSZisoNrDIm98S9L5LBw3tJzE6Y1WkqHKe2PdjRRUT3M7VU1V9MPCuEzo0O+yVzAfT6V0zsnO8UuputAeaeHpMPzHXQY0T48QddkV2b7cZ+uoCAdcsEaHbYqA0dIlAkBht9eiarB5KAR1yW7bkLGtQ5TWpeHfkl/dEtfEob0czWdSFIoHBVjhsIcWpK+Mtq/95RgTLOaK5toYdQXWrqpyVv50AXHduJaeGgHQBe0A8ro6zLGyCljBm3joTpMldQySF8Sps5QbCHTpUNb/hqsLwmuBkSZkg8T0hGvA/H9lyV/DdaXBLxXcGPXVxPWi5QSCcjwylKfmvpwdBiy0Z4zzxmYulQ6ANYWYqVWH07BHHNLo8Osh2ZqV/qSMOdQNicvZoJHKrq+daUvCa4114WN1FQ6xKya68KcxFp4uXsFT4N/cr7i5cj5en+8ZXdIpVKzLLre16bZUAZzVggLowjIc9YRmYfAtuliNIfew2IXq/O7VhEOgXab7r0AAPgFJIOJsiVw12MAAAAASUVORK5CYII="/>
+                        </svg>
+                    </div>
+                    <div class="benefit-card-text">
+                        <h3>domain transfer</h3>
+                        <p>Lorem Ipsum is simply dummy text of the <br> 
+                            printing and typesetting industry. Lorem <br>
+                            Ipsum has been.</p>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="56" viewBox="0 0 48 56">
+                            <image id="_" data-name="" width="48" height="56" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA0CAYAAADxAdr3AAADDElEQVRoge2ZPWgUQRTHf9Er1CqRNMFCVGxSiHCgRZLKaESSRgiY4k4khYjBiIUflQk2SSMoQiBgEwuFgIgJQlCwyGkREESijXhWQQvRTgISkCdvZXzM5vbjBi+wfxjY+Xrz27dvZ2Z32n5dPE4gHQA+Ndt0qQk2uoF+oA8oA/s8bWrAa2AZWMwzWB4PV4BhYChlvzd6A9PAl7SDbkvbQT36FJjLAIs+hXHgHXAzbee0wBUdKAlovUF9JzChN78nKUAa4Ip6dbunbgGo6ovWpim63glI3N3RcLCSm3+cFDppDEewPtDrwIckRlSXgDHgoClfAU4Da3mBfbAbwDnggVPWBfRqjJa1rK5JXrJXTlvx5owntAT6aB5gMfxW482FPQysOqBTwCnTzkqgZ81NPgTOmIYSOpfjjDSK4ZkGsIP6ElYbwKLen1PIXVo2Ajwy7WQG6ckC3ON5ZFcM7EICUCvx6EvnJRvRUHB1LQuw7SRwdw2slTz2G8AJTefVqxum3RHgvpO/ZeqH4rwcB9ylS62rWb3eAdz29BnXPhLPzzVJn7PAIWDJtB9wFo5FjwOG0wDLwO1OvubsAaY8U1Kv432fZNo76YnXMXUOjkNcm4mByybvblisoQkzZW2mUeCjU9/peFLG+GEYdmcFjlaoHlMn5ZMJYUU/gXumrN8zThxHamDr3Voyzn80b/KuzczA7SYfPaoOU/41Hesf2S2ltbmpsmwv/6sK4NDacsD2I7TbTDON1J+yfVp16Dbg7zrgAkvFk5gvijgdCwgruqppSRedtSgkos2MD7YWc90sJbE/EG2WIuC47Zwsoxec/KJnE5NHaewL9GBJ12u7glV1gpc7Xjd1sonZrymvGtkfNV8kfSXP8vfCfMb4VE/wGZ9Hrn0XuFzMw6FVAIdWARxaBXBoFcChVQCHVgEcWgVwaBXAobUlgb+bsr36Q6UVZM856iX9J7uiByXoccD7FgG2Wo5C4lnrMMVK/mHMR8CTngOTVtI3PYded186OeCTHyghfkdl1Wc955Njs1WA3yiLme/qGJskAAAAAElFTkSuQmCC"/>
+                        </svg>                          
+                    </div>
+                    <div class="benefit-card-text">
+                        <h3>100% security</h3>
+                        <p>Lorem Ipsum is simply dummy text of the <br> 
+                            printing and typesetting industry. Lorem <br>
+                            Ipsum has been.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hot-back">
+            <div class="hot container supp-container">
+                <div class="hot-offer">
+                    <div class="decor-line"></div>
+                    <h2>now<br><strong>what is hot</strong></h2>
+                    <article class="hot-offer-back">                        
+                        <div class="hot-offer-card">
+                            <p class="hot-p1">get up to<br>                                        
+                            </p>
+                            <p class="hot-p2">
+                                <strong class="orange-text">50%<strong class="blue-text">off</strong></strong>
+                                <em class="brown-text">each<strong>hosting</strong></em>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="features">
+                    <div class="decor-line"></div>
+                    <h2>our<br><strong>features</strong></h2>
+                    <ul class="features-list">
+                        <div class="list-col1">
+                            <li class="features-item">
+                                <div class="list-point"><i class="list-point-arrow"></i></div>
+                                <p>Lorem ipsum is simply dummy.</p>
+                            </li>
+                            <li class="features-item">
+                                <div class="list-point"><i class="list-point-arrow"></i></div>
+                                <p>Discovered and undoubtable.</p>
+                            </li>
+                            <li class="features-item">
+                                <div class="list-point"><i class="list-point-arrow"></i></div>
+                                <p>Various version have evolved.</p>
+                            </li>
+                            <li class="features-item">
+                                <div class="list-point"><i class="list-point-arrow"></i></div>
+                                <p>Suffered alteration in some.</p>
+                            </li>
+                        </div>
+                        <div class="list-col2">
+                            <li class="features-item">
+                                <div class="list-point"><i class="list-point-arrow"></i></div>
+                                <p>Specimen book.</p>
+                            </li>
+                            <li class="features-item">
+                                <div class="list-point"><i class="list-point-arrow"></i></div>
+                                <p>Lpsum generation.</p>
+                            </li>
+                            <li class="features-item">
+                                <div class="list-point"><i class="list-point-arrow"></i></div>
+                                <p>Sentence structures.</p>
+                            </li>
+                            <li class="features-item">
+                                <div class="list-point"><i class="list-point-arrow"></i></div>
+                                <p>Embarassing hidden.</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <button class="orange-button">view all</button>
+            </div>
+        </section>
+        <section class="hosting-plan container supp-container">
+            <div class="decor-line"></div>
+            <h2>our<br><strong>hosting</strong></h2>
+            <div class="plan-cards">
+                <div class="plan-card">
+                    <p class="plan-cost"><strong><em>$</em>5<br></strong>per month</p>
+                    <span class="plan-name">standart plan</span>
+                    <ul class="plan-descript">
+                        <li class="plan-descript-item">10GB Disk Space</li>
+                        <li class="plan-descript-item">1TB Bandwidth</li>
+                        <li class="plan-descript-item">Free DDoS Protection</li>
+                        <li class="plan-descript-item">Free Daily Backups</li>
+                        <li class="plan-descript-item">Managed Hosting</li>
+                    </ul>
+                    <button class="orange-button">sign up</button>
+                </div>
+                <div class="plan-card">
+                    <p class="plan-cost"><strong><em>$</em>6<br></strong>per month</p>
+                    <span class="plan-name">advanced plan</span>
+                    <ul class="plan-descript">
+                        <li class="plan-descript-item">10GB Disk Space</li>
+                        <li class="plan-descript-item">1TB Bandwidth</li>
+                        <li class="plan-descript-item">Free DDoS Protection</li>
+                        <li class="plan-descript-item">Free Daily Backups</li>
+                        <li class="plan-descript-item">Managed Hosting</li>
+                    </ul>
+                    <button class="orange-button">sign up</button>
+                </div>
+                <div class="plan-card">
+                    <p class="plan-cost"><strong><em>$</em>8<br></strong>per month</p>
+                    <span class="plan-name">business plan</span>
+                    <ul class="plan-descript">
+                        <li class="plan-descript-item">10GB Disk Space</li>
+                        <li class="plan-descript-item">1TB Bandwidth</li>
+                        <li class="plan-descript-item">Free DDoS Protection</li>
+                        <li class="plan-descript-item">Free Daily Backups</li>
+                        <li class="plan-descript-item">Managed Hosting</li>
+                    </ul>
+                    <button class="orange-button">sign up</button>
+                </div>
+                <div class="plan-card">
+                    <p class="plan-cost"><strong><em>$</em>9<br></strong>per month</p>
+                    <span class="plan-name">gold plan</span>
+                    <ul class="plan-descript">
+                        <li class="plan-descript-item">10GB Disk Space</li>
+                        <li class="plan-descript-item">1TB Bandwidth</li>
+                        <li class="plan-descript-item">Free DDoS Protection</li>
+                        <li class="plan-descript-item">Free Daily Backups</li>
+                        <li class="plan-descript-item">Managed Hosting</li>
+                    </ul>
+                    <button class="orange-button">sign up</button>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter-back">
+            <div class="newsletter container supp-container">
+                <div class="newsletter-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="22" viewBox="0 0 28 22">
+                        <image id="_" data-name="" width="28" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAWCAYAAADTlvzyAAABP0lEQVRIibWW4XGCUBCENxkaoAVTgpSAJUgJ+sMCYgmxhFBCLCGWEEoILViAf5xl9jIX5hmemNs/jm8efHe7B4+ny24FAAsAS8SpA9Dz7gWAGsBnIMy0BdAS+KaFE4BzAKhUU+QcCy1QTRCQ+lZs5bNbjMqwFGyQB26CgK/+jweuA6D1X0DqfbzhAa1T0++BB/1ymj4ehPl7tPYMjoGtm1RW9+XDzlSprsylvZ6/ZIfUEUClipaC1pkwv59Fr5xrN4EQrBJ8XPEteUc6XX9K7U0BoQobWYKJXMd5VT6zXKDpkMjVXhCLqbxSKqY2yNpeXVhOvRsocyNp4b0dmiyXVgCDsZiXXBgyOzSdZdlewH7Oy/4eoAd3M64blGvpv8mfh5jxZskRHflhEMjAOfI8JCM1fNcQyEH4dUgGddkAwBUExkg7cWQULgAAAABJRU5ErkJggg=="/>
+                    </svg>                      
+                </div>
+                <h2>sign up your<br><strong>newsletter</strong></h2>
+                <input type="text" class="domain-name" placeholder="Enter your domain name">
+                <button class="orange-button">sign up now</button></div>
+        </section>
+    </main>
+    <footer>
+        <section class="main-footer-back">
+            <div class="main-footer container supp-container">
+                <div class="footer-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="31" viewBox="0 0 148 31">
+                        <image id="Hosting" width="148" height="31" xlink:href="data:img/png;base64,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"/>
+                    </svg>                       
+                    <p>2015 © Allright Reserved</p>
+                </div>
+                <div class="quick-links">
+                    <h3>quick links</h3>
+                    <ul class="quick-links-list">
+                        <div class="links-list1">
+                            <li class="quick-links-item"><a href="#">Home</a></li>
+                            <li class="quick-links-item"><a href="#">About us</a></li>
+                            <li class="quick-links-item"><a href="#">Service</a></li>
+                            <li class="quick-links-item"><a href="#">Hosting plans</a></li>
+                            <li class="quick-links-item"><a href="#">Domains</a></li>
+                        </div>
+                        <div class="links-list2">
+                            <li class="quick-links-item"><a href="#">FAQ</a></li>
+                            <li class="quick-links-item"><a href="#">Blog</a></li>
+                            <li class="quick-links-item"><a href="#">Support</a></li>
+                            <li class="quick-links-item"><a href="#">Contact</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="contact-links">
+                    <h3>contact us</h3>
+                    <ul class="contact-list">
+                        <li class="contact-item"><p>Address :<a href="">9867 lipsum text here</a></p></li>
+                        <li class="contact-item"><p>There are many variation</p></li>
+                        <li class="contact-item"><p>Email :<a href="">info@hosting.com</a></p></li>
+                        <li class="contact-item"><p>Call :<a href="">+87 7765 557 888</a></p></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <h3>social media</h3>
+                    <ul class="soc-links-list">
+                        <li class="soc-link-item">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="23" viewBox="0 0 12 23">
+                                    <image id="facebook" width="12" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAXCAYAAAA/ZK6/AAAAl0lEQVQ4jWOcMGstAw4gyMDAkAal4YAFh2KQwg50xQw4NBgzMDDMxGUtExaxclyKcWkwRuPPYmBgCGNgYGAEYWxOUkLjdzIwMNzDZwM6uIfMJ0YDCgA5KRSLu5FBBxL7PQtUMb6QQZa7R6qTSNZwFuSks9Cgw+YEEECWO4st8f1H4zMic0gO1lENNNGALQOhpH8UwMDAAACuSxTpHafewgAAAABJRU5ErkJggg=="/>
+                                </svg>
+                            </a>                              
+                        </li>
+                        <li class="soc-link-item">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="18" viewBox="0 0 21 18">
+                                    <image id="twitter" width="21" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAASCAYAAAC0EpUuAAABE0lEQVQ4jaWU4Q2CQAyFn8YFXIEVdAQcAUfAEWAE+edfGQHjBDqCjiAjyAiaZ3pJ01zxxJdcCOT6tX1XbnZoz5ioFYB7LHQuz2Uil/s6AC8AN3l2Kr4CkAcoN5QJ0AuAwnwrVIKM1QcoX46SyVMlLcfE+EEqLudmw17aySKBeYI1BDcBqg1nOw+Bl8qvWCKtHsAOclAMqiWL9YqWPMWv1MP8QAcJ7hPaS4YGeYeQqpOF1n8CqauFnsTkbxZ46mNQ/OJZRK3+pKHtRDDHsfGgnIKNd0k4GsJsetCQdS0b7dxauUUszDsHPqwx8WC2XleE8qLg7/jtN6RYHb2nh24nhHIDF6vjpcGlE7AaAjgyBI7bAuANM5U8TiiD4W4AAAAASUVORK5CYII="/>
+                                </svg>                                  
+                            </a>                              
+                        </li>
+                        <li class="soc-link-item">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="20" viewBox="0 0 22 20">
+                                    <image id="linkedin" width="22" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAAAy0lEQVQ4je2SzQ2CQBCFPzY0QAtYgi3YApagJUAJcPO8JUisQFqgBVqgBYN5mM1mSWT3ZnwXsvPzZeYx2c0+AArgou8I9CQqV/sTODqoK2BT0AaoPOiiOnVio9V9hWK7wZNWnxTr9U7S6rFN9dTXCq68+Ohs4OcGYAZK5Qq9e6fnA757zR3QbOTOwEnn6ap1+3L2q9W0IdWavjMR4C3oqvepxoDRuhlwCJzm4nkVA7byEv2sJlBTxoD9CYdATREDnr8pivX4D/5ZMPACznci/bbuO0YAAAAASUVORK5CYII="/>
+                                </svg>                                  
+                            </a>                              
+                        </li>
+                        <li class="soc-link-item">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="23" viewBox="0 0 22 23">
+                                    <image id="google_" data-name="google+" width="22" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAXCAYAAAAP6L+eAAABh0lEQVQ4jZVU222DQBCcRGnALZAScAlOCVACLTglmL/8hhJspYJQQightJAWrI1mrcneEvBI6IC7m33N7sPb8IEEOwAHAHW2CeAHwMA1xVNCeCLhCKAC0HBv4j8j65cIHY+B9IvrHsArgJYraGwTKQLxJz2MF+37wvcjDW8m1nxOyblRouruJXZU/xDjXo8Vh+TfLO+ZEprokBOrRxmxYkz+nWOKlNhz27BIWRT9Qg0KqI5fqIyaWt6RxAs2iPTA0Ovw7Zofs87rJF+eO8vxczh3SiJztLHzQM8cfjEr2CBpOVPrrvcxI1ZMDNeed6bCjcxBLbMQp3JzNEEBHWtwt44revXNmeGF6MXLWuaJog0pvKniyGJMDPcSLvaiGHeglf14/tfjjqQzJVccosd72Vua0wWxW10c3OI5FuZJQezWtxTF5ZW1dUGsrbxG7gXN0lUQezWN1ArklyMsMiuynf+jgAymCjtkpHbJLlsXWRTaACq9VVKDzgofNrY6kRGbEXtWw78BwBVfuV8QoqHWKgAAAABJRU5ErkJggg=="/>
+                                </svg>                                  
+                            </a>                              
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+        </section>
+        <div class="hiu"></div>
+    </footer>
+</body>
+</html>

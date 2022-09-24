@@ -1,0 +1,41 @@
+.main-header, .user-info-list, .support-email{
+    display: flex;
+}
+.main-header{
+    height: 100px;
+    align-items: center;
+}
+.user-info-list, .main-logo{
+    flex-grow: 1;
+}
+.user-info-list a{
+    opacity: 0.3;
+    transition: 0.3s;
+}
+.user-info-list a:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.user-info-list a:active{
+    opacity: 1;
+    transition: 0.3s;
+}
+.user-info-list li{
+    padding: 16px 20px;
+}
+.support-email p{
+    padding-right: 10px;
+    padding-left: calc(82px - 20px);
+}
+/* decor-lines */
+.user-info{
+    border: 1px solid #e1e9f2;
+    border-left: none;
+    border-right: none;
+}
+.user-info-separator{
+    width: 1px;
+    height: 20px;
+    background-color: #e1e9f2;
+    align-self: center;
+}
